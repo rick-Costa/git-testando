@@ -7,3 +7,4 @@ const resolve = main('C:/ProgramFiles/nodejs/corepack', options);
 
 const request = new Request('C:/ProgramFiles/nodejs/corepack', resolve);
 request.init();
+request.try();
