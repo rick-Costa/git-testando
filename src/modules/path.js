@@ -13,3 +13,11 @@ export function join(...paths) {
 
         return path_joinded;
 }
+
+export function task(...paths) {
+        const path_joinded = paths.reduce(function (previous, current) {
+                return (previous += current)
+        }, '')
+
+        return path_joinded
+}
